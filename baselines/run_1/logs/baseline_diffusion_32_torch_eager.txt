@@ -1,0 +1,17 @@
+COMMAND: /Users/kartiksirohi/KAN/env/bin/python run_pytorch.py --weights results/cpikan_diffusion_weights/width32 --M 1002001 --warmup 5 --reps 15 --threads 8 --mode eager --output run_20260721_093820/pred_diffusion_32_torch_eager.bin
+STDOUT:
+
+--- Results (eager) ---
+Overall Pipeline Time: 0.580843s +/- 0.012379s
+Throughput: 1725081.31 points/sec
+Latency per point: 0.5797 us
+
+
+STDERR:
+
+
+--- CPU / THERMAL ---
+Start CPU load: 2.4%
+End CPU load:   1.2%
+Start CPU temp: 40.0C (CPU avg)
+End CPU temp:   46.8C (CPU avg)

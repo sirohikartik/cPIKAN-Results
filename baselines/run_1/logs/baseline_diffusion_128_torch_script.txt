@@ -1,0 +1,17 @@
+COMMAND: /Users/kartiksirohi/KAN/env/bin/python run_pytorch.py --weights results/cpikan_diffusion_weights/width128 --M 1002001 --warmup 5 --reps 15 --threads 8 --mode script --output run_20260721_093820/pred_diffusion_128_torch_script.bin
+STDOUT:
+
+--- Results (script) ---
+Overall Pipeline Time: 2.865334s +/- 0.031442s
+Throughput: 349697.77 points/sec
+Latency per point: 2.8596 us
+
+
+STDERR:
+
+
+--- CPU / THERMAL ---
+Start CPU load: 15.3%
+End CPU load:   16.7%
+Start CPU temp: 39.8C (CPU avg)
+End CPU temp:   67.0C (CPU avg)

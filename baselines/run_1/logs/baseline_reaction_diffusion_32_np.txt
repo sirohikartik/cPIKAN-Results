@@ -1,0 +1,17 @@
+COMMAND: /Users/kartiksirohi/KAN/env/bin/python run.py --weights results/cpikan_reaction_diffusion_weights/width32 --M 1002001 --warmup 5 --reps 15 --output run_20260721_093820/pred_reaction_diffusion_32_np.bin
+STDOUT:
+
+--- Results ---
+Overall Pipeline Time: 0.713833s +/- 0.006006s
+Throughput: 1403691.76 points/sec
+Latency per point: 0.7124 us
+
+
+STDERR:
+
+
+--- CPU / THERMAL ---
+Start CPU load: 1.2%
+End CPU load:   3.4%
+Start CPU temp: 42.1C (CPU avg)
+End CPU temp:   51.2C (CPU avg)

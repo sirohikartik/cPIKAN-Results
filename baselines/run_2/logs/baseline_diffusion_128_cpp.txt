@@ -1,0 +1,18 @@
+COMMAND: ./build/run_latency --weights results/cpikan_diffusion_weights/width128 --M 1002001 --warmup 5 --reps 15 --output run_20260721_111355/pred_diffusion_128_cpp.bin
+STDOUT:
+
+--- Results (TRUE LATENCY) ---
+Overall Pipeline Time: 0.80439s +/- 0.0084546s
+Throughput: 1.24567e+06 points/sec
+Latency per point: 0.802784 us
+Individual Times: 0.799439,0.799931,0.798414,0.792468,0.808965,0.79583,0.821102,0.805994,0.811095,0.8239,0.801753,0.802194,0.799789,0.80047,0.804506
+
+
+STDERR:
+
+
+--- CPU / THERMAL ---
+Start CPU load: 3.5%
+End CPU load:   2.2%
+Start CPU temp: 43.7C (CPU avg)
+End CPU temp:   62.5C (CPU avg)
