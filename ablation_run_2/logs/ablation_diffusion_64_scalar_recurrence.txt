@@ -1,0 +1,19 @@
+COMMAND: ./ablate_scalar_safe --weights results/cpikan_diffusion_weights/width64 --M 1002001 --warmup 5 --reps 15 --recurrence scalar --matmul blas --block-size 512 --output run_ablation_20260722_175044/pred_diffusion_64_scalar_recurrence.bin
+ENV OMP_NUM_THREADS: 8
+STDOUT:
+
+--- Results (ABLATION recurrence=scalar matmul=blas block_size=512) ---
+Overall Pipeline Time: 0.362771s +/- 0.00915776s
+Throughput: 2.76207e+06 points/sec
+Latency per point: 0.362047 us
+Individual Times: 0.353254,0.350473,0.356724,0.360982,0.362698,0.364892,0.351905,0.36016,0.364797,0.383008,0.364756,0.353303,0.363098,0.376792,0.374731
+
+
+STDERR:
+
+
+--- CPU / THERMAL ---
+Start CPU load: 2.3%
+End CPU load:   47.1%
+Start CPU temp: 38.2C (CPU avg)
+End CPU temp:   51.4C (CPU avg)
